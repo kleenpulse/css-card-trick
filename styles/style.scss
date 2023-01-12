@@ -12,7 +12,7 @@
 
 .light {
 	--bg: #f4f8fc;
-	--text: #2a2a2a;
+	--text: #454545;
 	--gray: #bbbbbb;
 	--stroke-color: #5e84ff;
 	--shadow: rgba(0, 0, 0, 0.476);
@@ -187,5 +187,8 @@ body {
 	}
 	.author-name {
 		margin-top: 1rem;
+		p {
+			font-weight: bold;
+		}
 	}
 }
